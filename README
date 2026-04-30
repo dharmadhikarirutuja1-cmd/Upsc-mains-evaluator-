@@ -1,0 +1,26 @@
+AI Evaluator: UPSC Answer Writing Assistant
+​The Problem
+​UPSC aspirants often spend hours or even days waiting for manual feedback on their answer writing. This delay breaks the momentum of study and makes it difficult to track progress in real-time, especially for complex subjects like Indian Polity.
+​The Solution
+​This app is a specialized tool designed to provide instant evaluation for UPSC students. By allowing users to upload their handwritten or typed answers in PDF format, the tool analyzes the content and provides a detailed evaluation within seconds. This allows students to correct their mistakes immediately and spend more time studying and less time waiting.
+​🚀 Key Features
+​Instant PDF Processing: Users can upload their answer scripts as PDF files for immediate analysis.
+​Rapid Feedback Loop: Evaluation is completed in seconds, providing a massive efficiency boost over traditional manual checking.
+All subject Focused Logic: The evaluator is programmed to look for key constitutional terms, Articles, and structured arguments required for UPSC-level answers.
+​User-Friendly Interface: A clean, minimal dashboard built specifically for students who need to focus on learning.
+​🛠️ Technical Implementation
+​The project leverages a modern tech stack to handle document processing and user interaction:
+​Frontend (NewEvaluation.jsx): A React-based interface that manages the PDF upload flow and displays the evaluation results clearly to the student.
+​Backend (Sever.py): A Python engine that handles the document parsing and the logic required to evaluate the uploaded answers.
+​State Management: Ensures that the transition from "Upload" to "Result" is seamless and fast.
+​📂 Project Structure
+​NewEvaluation.jsx: The student dashboard and PDF upload interface.
+​Sever.py: The backend server responsible for the evaluation logic and file handling.
+​README.md: Project documentation and mission statement.
+​🏗️ Getting Started
+​Clone the repo: git clone https://github.com/dharmadhikarirutuja1-cmd/UPSC-Mains-Evaluator
+​Install Frontend: npm install
+​Run the Server: python Sever.py
+​Launch the App: npm start
+​👩‍💻 About the Project
+​Developed for the 2026 Hackathon, this tool was created to solve a genuine pain point for students. With a background in Geography and a deep focus on Indian Polity, I built this to ensure that the next generation of civil servants has access to fast, reliable, and accessible feedback on their preparation.
